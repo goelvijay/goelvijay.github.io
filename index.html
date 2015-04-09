@@ -1,28 +1,88 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="Keywords"
+	content="Paying Guest, PG in Bangalore, paying guest accommodations in bangalore, paying guest in bangalore for women, paying guest in bangalore for men, PG in Bangalore for men, PG in bangalore for women, pg for girls in bangalore, pg for boys in bangalore, PG in bangalore for Gents, PG in bangalore for ladies" />
+<meta name="Keywords"
+	content="Paying Guest, PG in Hyderabad, paying guest accommodations in Hyderabad, paying guest in Hyderabad for women, paying guest in Hyderabad for men, PG in Hyderabad for men, PG in Hyderabad for women, pg for girls in Hyderabad, pg for boys in Hyderabad, PG in Hyderabad for Gents, PG in Hyderabad for ladies" />
+<meta name="Keywords"
+	content="Paying Guest, PG in Delhi, paying guest accommodations in Delhi, paying guest in Delhi for women, paying guest in Delhi for men, PG in Delhi for men, PG in Delhi for women, pg for girls in Delhi, pg for boys in Delhi, PG in Delhi for Gents, PG in Delhi for ladies" />
+<meta name="Description"
+	content="Find Comprehensive list of Paying Guest Accommodations in India for both Men and Women Listed Area Wise. Rely on us, finding a Paying Guest made Easy." />
+
+<link rel="shortcut icon" type="image/x-icon"
+	href="<%=request.getContextPath()%>/image/favicon.ico">
+
+<title>Shelter PG4Rent, PG for Men and women</title>
+
+<link rel="StyleSheet" type="text\css"
+	href="<%=request.getContextPath()%>/css/style.css">
+	<link rel="StyleSheet" type="text\css"
+	href="<%=request.getContextPath()%>/css/popup.css">
+
+
+
+<script src="<%=request.getContextPath()%>/script/jquery-1.11.2.js"></script>
+
+
+
+</head>
+<body>
+    
+
+	<%@ include file="/jsp/header.jsp"%>
+
+	<div id="buttonhide"
+		style="position: relative; z-index: 1; background-color: orange; top: 120px; width: 100%;">
+		<ul>
+			<li id="button" style="margin-left: 90px;"><a
+				href="<%=request.getContextPath()%>/jsp/bangalore.jsp" target="_self"><h2>Bangalore</h2></a></li>
+			<li id="button">
+				<h2>Hyderabad</h2>
+			</li>
+			<li id="button">
+				<h2>Pune</h2>
+			</li>
+			<li id="button">
+				<h2>Delhi</h2>
+			</li>
+			<li id="button">
+				<h2>Kolkata</h2>
+			</li>
+			<li id="button">
+				<h2>Ranchi</h2>
+			</li>
+		</ul>
+
+	</div>
+
+	<div id="contentdiv">
+
+		<div style="position: relative; top: 20px; left: 100px; width: 100%;">
+			<table bordercolor="#7AD9B7" border="3">
+				<tr>
+					<th>Name</th>
+					<th>Contact No</th>
+					<th>Location</th>
+					<th>Image</th>
+				</tr>
+			</table>
+		</div>
+		
+		
+		
+		<div></div>
+		<div></div>
+		
+		
+		
+		
+		
+	</div>
+	<%@ include file="/jsp/footer.jsp"%>
+</body>
 </html>
